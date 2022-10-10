@@ -1,0 +1,67 @@
+CONNECTED(00000005)
+---
+Certificate chain
+ 0 s:/C=US/ST=California/L=Walnut Creek/O=Lucas Garron Torres/CN=verifyfail.3721837116
+   i:/C=ES/ST=Barcelona/L=Barcelona/O=Qustodio LLC/OU=Qustodio/CN=Qustodio Protection CA
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIDdTCCAl2gAwIBAgIFAN3WujwwDQYJKoZIhvcNAQELBQAwgYAxCzAJBgNVBAYT
+AkVTMRIwEAYDVQQIDAlCYXJjZWxvbmExEjAQBgNVBAcMCUJhcmNlbG9uYTEVMBMG
+A1UECgwMUXVzdG9kaW8gTExDMREwDwYDVQQLDAhRdXN0b2RpbzEfMB0GA1UEAwwW
+UXVzdG9kaW8gUHJvdGVjdGlvbiBDQTAeFw0yMDAzMjMwMDAwMDBaFw0yMjA1MTcx
+MjAwMDBaMHcxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRUwEwYD
+VQQHEwxXYWxudXQgQ3JlZWsxHDAaBgNVBAoTE0x1Y2FzIEdhcnJvbiBUb3JyZXMx
+HjAcBgNVBAMMFXZlcmlmeWZhaWwuMzcyMTgzNzExNjCCASIwDQYJKoZIhvcNAQEB
+BQADggEPADCCAQoCggEBAN7wPhwQtsDN00aCSn7EU/sqQF63qnD4teZ0fxY2O9FO
+iKGE1mPWFC3h8JOptGuAwARpSp6z2kd2wRdFC5ntUxRsqjwQmyrX3tsmPqkzVeEV
+qE1+A/ZsvEIkXv/riaVJYUtNHdh/YOA1uvoGQGXIV5LQ3p4ysUQRCmwn5QMOVLtU
+fPqIVNiSEoXrwkMCHWAwEt0ZlzgEEsG2pbmwzHXaVZ4/0QM0hnrmut5konRCTEon
+rFLEy5QXIzcEx0r31bzl3AZ/p7C6HXJw7uKw5LYXUG1U64/FrrLOkvFvZvXec8IE
+0UdCxbz48qJAB7URLNplsunO6YWG/ITFLyjTG6cbM4sCAwEAATANBgkqhkiG9w0B
+AQsFAAOCAQEAvBrcLnchqYOVOsUabo5Z107drJa0X8bN++OjcKWaBjRpFiFGpUjB
+O5DwjXzcNS5TijffT8LIMeQ5/3qQ3lrocEBVmKvk9nbUmdxHIcwd9bgAgmaK0dlL
+DH+lCh/GgHhUutRtvZDTfRUws9D7Gv5SYA0GgfDp/AkQju2E+Xeg0PUjGg7Dip/L
+yx/f2mIB4kxyTSzJTGN+1uWX2JJeBPsyc1R5jn3aCkfIVm4B/Hdaoj7ojAizWYJ8
+L6QswbCGovmRtXAbVzv+h9/TgjVVVV/VQ4IjBRmj3uDrFJzulmMEEXMcHHzl5832
+B1KjW8pfJI1DScpGUNVFA+OmAiakVSPWZQ==
+-----END CERTIFICATE-----
+subject=/C=US/ST=California/L=Walnut Creek/O=Lucas Garron Torres/CN=verifyfail.3721837116
+issuer=/C=ES/ST=Barcelona/L=Barcelona/O=Qustodio LLC/OU=Qustodio/CN=Qustodio Protection CA
+---
+No client certificate CA names sent
+Server Temp Key: ECDH, X25519, 253 bits
+---
+SSL handshake has read 1542 bytes and written 325 bytes
+---
+New, TLSv1/SSLv3, Cipher is ECDHE-RSA-AES256-GCM-SHA384
+Server public key is 2048 bit
+Secure Renegotiation IS supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+SSL-Session:
+    Protocol  : TLSv1.2
+    Cipher    : ECDHE-RSA-AES256-GCM-SHA384
+    Session-ID: AB871F45A95A1F904B4559BCE8E723566544BAF4E4D3D84966FD0DB3E056674C
+    Session-ID-ctx: 
+    Master-Key: DFF1B59D970A92CC9697AE1FA8944265D2EBCEECBC2E5F623AC91C26736777F8A16779D3C85881E0320117DE1EF034A7
+    TLS session ticket lifetime hint: 7200 (seconds)
+    TLS session ticket:
+    0000 - 65 41 ed 32 38 de 9b 53-de 56 76 c2 c5 d3 78 cb   eA.28..S.Vv...x.
+    0010 - 2a 7c 0f a4 dc 88 f1 61-3f c3 c8 c3 b4 32 71 0b   *|.....a?....2q.
+    0020 - fc 72 28 41 00 26 94 e4-54 b7 5b 49 6b 5d 52 a0   .r(A.&..T.[Ik]R.
+    0030 - f2 86 ac 23 80 37 74 4c-af bf 23 55 8a fd 99 87   ...#.7tL..#U....
+    0040 - a1 3d 4c 58 4f 0b 38 2b-14 48 29 2a 4b 39 5e 3b   .=LXO.8+.H)*K9^;
+    0050 - 5c b6 50 07 75 5d a2 60-f8 29 de 50 5a c2 f9 fb   \.P.u].`.).PZ...
+    0060 - 03 0e 9c 02 d7 61 98 14-4d 9b f3 7a 2a 81 03 7a   .....a..M..z*..z
+    0070 - 51 de c1 ec 90 bb ef 6b-ec 67 b8 2f c6 c0 3d dd   Q......k.g./..=.
+    0080 - 0b b8 a0 60 09 cc db c2-ae 5e ae 78 4d d0 82 e4   ...`.....^.xM...
+    0090 - eb f5 6f c9 08 67 63 e2-23 31 8a 79 41 03 99 9a   ..o..gc.#1.yA...
+    00a0 - eb be 9c 97 56 8c 55 e0-2c 6c 4b d9 28 b6 5b c8   ....V.U.,lK.(.[.
+    00b0 - cc 25 5a bf 34 aa a5 fa-1e 01 14 ac da eb c4 21   .%Z.4..........!
+
+    Start Time: 1665180242
+    Timeout   : 7200 (sec)
+    Verify return code: 21 (unable to verify the first certificate)
+---
