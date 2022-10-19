@@ -1,11 +1,12 @@
 {
   "name": "austins-react-ts-project",
+  "homepage": "http://austinwehn.com/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite --port=3000",
-    "build": "tsc && vite build",
+    "build": "tsc && vite build && cp .htaccess dist",
     "preview": "vite preview"
   },
   "dependencies": {
