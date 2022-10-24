@@ -1,17 +1,16 @@
 import { Form } from './components/form';
 import './App.css';
-// import austinPicture from './assets/austin_volcano.jpg';
-// import austinPicture from './assets/bootstrap-themes.png';
 
 
 function App() {
   return (
     <main>
-      <div className="container col-xxl-8 px-4 py-5">
+      <div className="container col-xxl-8 px-4 py-5 pt-1">
         <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div className="col-lg-6">
-            <h1 className="display-5 fw-bold lh-1 mb-3">Responsive left-aligned hero with image</h1>
-            <p className="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+            <h1 className="display-6 fw-bold lh-1 mb-0">My name is Austin Wehn</h1>
+            <h2 className="display-7 fw-bold lh-1 mb-3">And I engineer the softwares.</h2>
+            <p className="lead">With a background in mathematics and a penchant for writing code, I take pride in analyzing the toughest problems and matching them with simple, effective solutions.</p>
             <div className="d-grid gap-2 d-md-flex justify-content-md-start">
               <button type="button" className="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
               <button type="button" className="btn btn-outline-secondary btn-lg px-4">Default</button>
