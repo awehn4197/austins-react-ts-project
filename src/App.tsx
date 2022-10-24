@@ -1,6 +1,6 @@
 import { Form } from './components/form';
 import './App.css';
-import austinPicture from './assets/austin_volcano.jpg';
+// import austinPicture from './assets/austin_volcano.jpg';
 // import austinPicture from './assets/bootstrap-themes.png';
 
 
@@ -19,7 +19,7 @@ function App() {
           </div>
 
           <div className="col-10 col-sm-8 col-lg-6">
-            <img src={austinPicture} className="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy" />
+            <img src="https://abw-general.s3.us-west-1.amazonaws.com/austin_volcano.JPG" className="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy" />
           </div>
 
         </div>
